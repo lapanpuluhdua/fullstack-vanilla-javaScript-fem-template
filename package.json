@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "web": "npx browser-sync './' ui/",
+    "web": "npx browser-sync ui/",
     "cli": "node ui/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "erickwendel",
+  "author": "hisham",
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": "v20.17.0"
+    "node": "v23.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.29.3"
+  },
+  "dependencies": {
+    "node": "^23.0.0"
   }
 }
